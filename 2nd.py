@@ -6,4 +6,7 @@ class Animal(object):
         print(f"Animal making sound '{self.sound}'")
 
 cat = Animal('mow')
+dog = Animal('au')
+
 cat.make_sound()
+dog.make_sound()
